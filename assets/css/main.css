@@ -2248,7 +2248,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/colorfulbanner.jpg");
 			}
 
 			#main > section.two {
@@ -2630,4 +2630,21 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
+	}
+	.tool-language {
+		border-radius: 10px;
+		background-color: rgba(225, 182, 193, 0.8);
+		padding: 5px;
+	}
+
+	.tool-framework {
+		border-radius: 10px;
+		background-color: rgba(144, 238, 144, 0.8);
+		padding: 5px;
+	}
+
+	.tool-ide {
+		border-radius: 10px;
+		padding: 5px;
+		background-color: rgba(173, 216, 230, 0.8);
 	}
