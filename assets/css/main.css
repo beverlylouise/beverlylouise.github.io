@@ -1755,14 +1755,14 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
-			background: #f00;
+			width: 55px;
+			height: 55px;
+			background: rgb(104, 158, 168);
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 55px;
+				height: 55px;
 			}
 
 		.image.fit {
@@ -2635,19 +2635,22 @@ input, select, textarea {
 		border-radius: 10px;
 		padding: 3em;
 		background-color: #e78c9a;
-		padding: 5px;
+		padding: 3px ;
+		margin: 3px;
 	}
 
 	.tool-framework {
 		border-radius: 10px;
 		padding: 3em;
 		background-color: #6ac8be;
-		padding: 5px;
+		padding: 3px;
+		margin: 3px;
 	}
 
 	.tool-ide {
 		border-radius: 10px;
 		padding: 3em;
-		padding: 5px;
+		padding: 3px;
 		background-color: #8196cc;
+		margin: 3px;
 	}
