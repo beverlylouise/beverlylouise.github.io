@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Beverly Murray</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	
+	<style>
+	* {box-sizing: border-box;}
+
+	.column {
+	float: center;
+	width: 49%;
+	padding: 5px;
+	}
+
+	/* Clearfix (clear floats) */
+	.row::after {
+	content: "";
+	clear: both;
+	display: table;
+	}
+	</style>	
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="picture of Beverly Murray" /></span>
+							<h1 id="title">Beverly Murray</h1>
+							<p>Software Engineer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="./index.html#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+								<li><a href="./index.html#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="./index.html#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="./index.html#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/beverly-murray-100326a6/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/beverlylouise" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="mailto:beverlylouise@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Project Video Section -->
+					<section id="top" class="three">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Machine Learning</h2>
+                                    <span class="tool-language">Python </span>
+                                    <span class="tool-language">HTML </span>
+                                    <span class="tool-language">CSS </span>
+                                    <span class="tool-framework">Pandas </span>
+                                    <span class="tool-framework">Google Colab </span>
+                                    <span class="tool-ide">CNNs </span>
+
+							</header>
+							<div class="row">
+								<div class="column">
+									<img src="./images/visualAccuracyAndLossEpochCrop.jpg" alt="Accuracy and Loss over Epoch" style="width:100%">
+								</div>
+								<div class="column">
+									<img src="./images/visualTotalDataBarGraphCrop.jpg" alt="Data Distribution Bar Graph" style="width:100%">
+								</div>
+							</div>
+							
+							<div class="projectDescriptionContainer">
+								<a href="#" target="_blank">Github Repository</a>
+								<br>
+								<p class="summaryParagraph" align="left"><u>Summary:</u><br>
+                                    This project is a machine trained model that identifies plant leaves in addition to determining if they are diseased or healthy.  I used a Google Colab notebook with python, pandas, NumPy, and Matplotlib.  The GUI was put in a web-based HTML and used pycharm and streamlit. 
+									<br><br>
+									The robust dataset was 54,305 images divided into 38 classes.  The data was preprocessed.  Any anomalies, such as files without pictures or repeats, were removed.  The images were resized to be uniform, and then split into an 80/20% training and validation set.
+									<br><br>
+									This project built a supervised classification model for images using Convolutional Neural Networks (CNNs), a fundamental method in contemporary image classification. CNNs are renowned for their ability to automatically extract and learn spatial features from images, making them the cornerstone of modern image classification techniques.
+									<br><br>
+									The architecture of the model was designed with sequential layers, forming a deep neural network. These layers form a deep neural network. The layers were strategically added in sequence, incorporating key components such as Conv2D layers with varying filter sizes, MaxPooling layers for down-sampling, Flatten layers to transform the data into a one-dimensional array, and Dense layers for classification.
+									<br><br>
+									The Conv2D layers convolve the input images with a set of learnable filters to capture relevant features. Subsequently, MaxPooling layers down-size the feature maps to reduce dimensionality and computation. The Flatten layer then transforms it into a one-dimensional array, enabling a seamless integration with Dense layers for classification purposes.
+									<br><br>
+									The model was developed iteratively, with data passing through the algorithm multiple times to refine the network's parameters and optimize its performance.  The selection of CNNs for this project was justified by its proven effectiveness in handling images to automatically learn and extract meaningful features for image classification.  Additionally, the sequential architecture eased the construction of a robust and scalable model suitable for classifying plant leaves.
+
+
+								</p>
+								<p>align="left"<u>Tech Specs:</u><br>
+                                    This machine trained model was built with a Google Colab notebook with python, pandas, NumPy, and Matplotlib.  The GUI was put in a web-based HTML and used pycharm and streamlit. 
+								</p>
+                                <a href="#" class="image featured"><img src="images/flippedthincolorfulbanner.jpg" alt="colorful paint splash in yellow, teal, pink, and red" /></a>
+
+
+								
+
+
+
+							</div>
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p class=>Please reach out to establish a professional connection with me by clicking a link below<br />  
+								<br />  </p>
+							<a href="https://www.linkedin.com/in/beverly-murray-100326a6/" class="icon brands fa-linkedin fa-7x" target="_blank"><span class="label">LinkedIn</span></a>
+							<a href="https://github.com/beverlylouise" class="icon brands fa-github fa-7x" target="_blank"><span class="label">Github</span></a>
+							<a href="mailto:beverlylouise@gmail.com" class="icon solid fa-envelope fa-7x" target="_blank"><span class="label">Email</span></a>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Beverly Murray 2024. All rights reserved.</li><li>Design inspired by: <a href="http://html5up.net">HTML5 UP</a></li><li>Photos sourced from: <a href="http://unsplash.com">Unsplash</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
